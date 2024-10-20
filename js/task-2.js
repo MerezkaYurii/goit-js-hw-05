@@ -39,12 +39,6 @@ const allUsers = [
 ];
 
 
-
-
-
-
-
-
 console.log(getUsersWithFriend(allUsers, "Briana Decker")); 
 // [
 //   {

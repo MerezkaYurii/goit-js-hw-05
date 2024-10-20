@@ -1,6 +1,4 @@
-const sortByDescendingFriendCount = users => users.sort((a, b) => b.friends.length - a.friends.length)
-
-// Нажаль toSorted() не працює, (.toSorted is not a function.), прийшлось змінити на sort
+const sortByDescendingFriendCount = users => users.toSorted((a, b) => b.friends.length - a.friends.length)
 
 
 console.log(
